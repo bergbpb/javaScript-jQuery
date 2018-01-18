@@ -1,2 +1,3 @@
 # javaScript-jQuery
-Projects and examples 
+
+This repository contains examples of UI components coded using javaScript and jQuery
