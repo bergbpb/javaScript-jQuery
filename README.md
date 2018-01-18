@@ -1,3 +1,6 @@
-# javaScript-jQuery
+# javaScript-jQuery 
 
-This repository contains examples of UI components coded using javaScript and jQuery
+Author: Ben Berg
+
+This repository contains examples of UI components coded using javaScript and jQuery.
+
