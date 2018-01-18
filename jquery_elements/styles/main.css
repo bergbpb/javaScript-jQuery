@@ -1,0 +1,524 @@
+.pgContainer {
+	max-width: 960px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.div1, .div2, .div3, .div4 {
+	height: 65px;
+	width: 100px;
+	display: inline-block;
+	margin-left: 125px;
+	border-radius: 3px; 
+}
+
+.div1 {
+	background-color: red;
+}
+
+.div2 {
+	background-color: blue;
+}
+
+.div3 {
+	background-color: green;
+}
+
+.div4 {
+	background-color: black;
+}
+
+.elem {
+	color: white;
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding-top: 35px;
+}
+
+.exampleContainer {
+	width: 100%;
+}
+
+.container {
+	min-height: 108px;
+	position: relative;
+	margin: 0 auto;
+	width: 300px;
+}
+
+.blockContainer {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	width: 300px;
+}
+
+.characterCountContainer {
+	width: 100%;
+	height: 45px;
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.maxChar {
+	width: 100%;
+	height: 40px;
+	display: none;
+	text-align: center;
+	clear: both;
+}
+
+.characterCountContainer span{
+	color: red;
+}
+
+.characterCount1 {
+	width: 50%;
+	float: left;
+	text-align: center;
+	display: none;
+}
+
+.characterCount2 {
+	width: 50%;
+	float: right;
+	text-align: center;
+	display: none;
+}
+
+input, 
+button {
+	outline: none;
+}
+
+button[href="#"] {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	padding: 10px;
+	border-radius: 3px;
+	border: 0.5px solid black;
+	text-transform: uppercase;
+	background-color: #FFF;
+	color: black;
+	width: 100px;
+	font-family: Lato, sans-serif;
+	cursor: pointer;
+	transition: color 0.4s ease-in-out;
+	-moz-transition: color 0.4s ease-in-out;
+	-webkit-transition: color 0.4s ease-in-out;
+	-ms-transition: color 0.4s ease-in-out;
+	-o-transition: color 0.4s ease-in-out;
+	transition: background-color 0.4s ease-in-out;
+	-moz-transition: background-color 0.4s ease-in-out;
+	-webkit-transition: background-color 0.4s ease-in-out;
+	-ms-transition: background-color 0.4s ease-in-out;
+	-o-transition: background-color 0.4s ease-in-out;
+}
+
+button[href="#"]:hover,
+button[href="#"]:active {
+	background-color: black;
+	color: white;
+}
+
+button[href="#"]:focus {
+	outline: none;
+}
+
+.svgContainer p,
+.accordion p,
+.fadeBlock p,
+.flashButtonContainer p,
+.searchResultsText {
+	width: auto;
+	font-family: Lato, sans-serif;
+	text-align: center;
+	margin: 17px auto;
+}
+
+.fadeBlock p {
+	margin: 11px auto;
+}
+
+.svgContainer p {
+	width: 230px;
+}
+
+.flashButtonContainer p {
+	display: none;
+}
+
+.searchResultsText {
+	text-align: left;
+}
+
+h1 {
+	font-family: Lato, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	line-height: 45px;
+	background-color: #808080;
+	color: white;
+	margin: 20px auto;
+}
+
+.searchContainer h5 {
+	width: 100%;
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	color: red;
+	display: none;
+}
+
+hr {
+	border-top: 0.5px solid black;
+	width: 95%;
+	margin: 20px auto;
+}
+
+.block,
+#flashSubmitButton,
+#arraySubmitButton,
+#arrayClearButton {
+	width: 300px;
+	height: 55px;
+	background-color: transparent; 
+	border: 0.5px solid black;
+	border-radius: 3PX;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: Lato, sans-serif;
+	color: black;
+	text-transform: uppercase;
+	padding-top: 5px;
+	cursor: pointer;
+	transition: color 0.4s ease-in-out;
+	-moz-transition: color 0.4s ease-in-out;
+	-webkit-transition: color 0.4s ease-in-out;
+	-ms-transition: color 0.4s ease-in-out;
+	-o-transition: color 0.4s ease-in-out;
+	transition: background-color 0.4s ease-in-out;
+	-moz-transition: background-color 0.4s ease-in-out;
+	-webkit-transition: background-color 0.4s ease-in-out;
+	-ms-transition: background-color 0.4s ease-in-out;
+	-o-transition: background-color 0.4s ease-in-out;
+}
+
+.block:hover {
+	background-color: black;
+	color: white;
+}
+
+.block2 {
+	width: 300px;
+	height: 40px;
+	background-color: transparent;
+	border: 0.5px solid red;
+	border-radius: 3PX; 
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: Lato, sans-serif;
+	color: red;
+	text-transform: uppercase;
+	padding-top: 15px;
+	transition: color 0.4s ease-in-out;
+	-moz-transition: color 0.4s ease-in-out;
+	-webkit-transition: color 0.4s ease-in-out;
+	-ms-transition: color 0.4s ease-in-out;
+	-o-transition: color 0.4s ease-in-out;
+	transition: background-color 0.4s ease-in-out;
+	-moz-transition: background-color 0.4s ease-in-out;
+	-webkit-transition: background-color 0.4s ease-in-out;
+	-ms-transition: background-color 0.4s ease-in-out;
+	-o-transition: background-color 0.4s ease-in-out;
+}
+
+.block2:hover {
+	background-color: red;
+	color: white;
+}
+
+.svgContainer {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+	max-height: 150px;
+	margin-bottom: 100px;
+	font-size: 1em;
+}
+
+#gaugeSVG {
+	height: 100%;
+	width: 100%;
+}
+
+#pctInput,
+button#pct {
+	border-radius: 3px;
+	border: 0.5px solid #4d4d4d;
+	background-color: #b3b3b3;
+	font-family:'HelveticaNeue-CondensedBlack';
+	font-size: 24px;
+	color: #FFF;
+	display:inline-block; 
+	text-align: center; 
+}
+
+#pctInput {
+	border: 0.5px solid #4d4d4d;
+	margin-left: 24%;
+	margin-bottom: 7px;
+	width: 60px;
+	height: 32px;
+	font-size: 24px;
+	color: #FFF;
+	display:inline-block; 
+	text-align: center; 
+}
+
+#btnContainer {
+	margin: 10px auto;
+}
+
+.searchContainer {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 325px;
+}
+
+.searchMemo {
+	display: none;
+	margin-left: 30%;
+}
+
+label {
+	font-family: Lato, sans-serif;
+	color: black;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+select {
+    width: auto;
+    display: inline-block;
+}
+
+input[type="text"] {
+    color: black;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 3px;
+   	width: 150px;
+	height: 30px;
+}
+
+input.arrayInput {
+	width: 250px;
+	margin-left: 10px;
+}
+
+input[type="submit"] {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+select,
+#searchSubmitButton,
+#userInputArray,
+#colorsArray,
+#numbersArray,
+#arrayClearItemButton,
+#pageRefresh1,
+#pageRefresh2,
+#pageRefresh3 {
+	display: inline-block;
+	width: 120px;
+	height: 35px;
+	background-color: transparent; 
+	border: 0.5px solid black;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: Lato, sans-serif;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-top: 5px;
+	cursor: pointer;
+	transition: color 0.4s ease-in-out;
+	-moz-transition: color 0.4s ease-in-out;
+	-webkit-transition: color 0.4s ease-in-out;
+	-ms-transition: color 0.4s ease-in-out;
+	-o-transition: color 0.4s ease-in-out;
+	transition: background-color 0.4s ease-in-out;
+	-moz-transition: background-color 0.4s ease-in-out;
+	-webkit-transition: background-color 0.4s ease-in-out;
+	-ms-transition: background-color 0.4s ease-in-out;
+	-o-transition: background-color 0.4s ease-in-out;
+}
+
+#pageRefresh1,
+#pageRefresh2,
+#pageRefresh3 {
+	width: 150px;
+	padding: 10px;
+	height: auto;
+	margin-top: 50px;
+	margin-left: 60%;
+	margin-right: auto;
+}
+
+#pageRefresh1 {
+	margin-left: 18%;
+}
+
+#pageRefresh2 {
+	margin-left: 27%;
+	margin-bottom: 50px;
+}
+
+#pageRefresh3 {
+	font-size: 60%;
+	margin-left: 27%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+#searchSubmitButton:hover,
+#flashSubmitButton:hover,
+#pageRefresh1:hover,
+#pageRefresh2:hover,
+#pageRefresh3:hover,
+#arraySubmitButton:hover,
+#arrayClearButton:hover,
+#userInputArray:hover,
+#colorsArray:hover,
+#numbersArray:hover,
+#arrayClearItemButton:hover {
+	background-color: black;
+	color: white;
+}
+
+#searchSubmitButton {
+	margin-top: 5px;
+}
+
+.flashButtonContainer {
+	width: 100%;
+	height: 60px;
+	margin: 100px 0;
+}
+
+#flashSubmitButton {
+	margin-top: 20px;
+	margin-left: 34.5%;
+	display: block;
+}
+
+#flashSubmitButton.flash {
+	border: 0.5px solid #7ac943;
+	color: #7ac943;
+}
+
+#flashSubmitButton:hover {
+	border: 0.5px solid black;
+}
+
+span p {
+	width: 30px;
+	margin-right: 10px;
+}
+
+.subscript {
+	font-size: 55%;
+}
+
+.searchContainer .subscript {
+	font-size: 75%;
+}
+
+#arraySubmitButton {
+	height: 35px;
+	width: 60px;
+	margin-left: 25px;
+	display: inline-block;	
+}
+
+#arrayClearButton {
+	height: 35px;
+	width: 50px;
+	display: inline-block;	
+	margin-left: 15px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0; 
+}
+
+#arrayClearItemButton {
+	height: 35px;
+	width: 77px;
+	display: inline-block;	
+	margin-right: 10px;
+	margin-top: -10px;
+	margin-left: -5px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0; 
+}
+
+#userInputArray,
+#colorsArray,
+#numbersArray {
+	display: inline-block;	
+	margin-left: 14px;
+	width: 150px;
+}
+
+.innerContainer {
+	width: 53%;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.outputDiv {
+	width: 50%;
+	height: 200px;
+	border: 0.5px solid lightgray;
+	border-radius: 3px;
+	margin: 0 auto;
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 5px;
+	overflow: scroll;
+	word-break: break-all;
+}
+
+.outputText {
+
+}
+
+input,
+span p,
+select,
+label,
+.andOr {
+	display: inline-block;
+	color: black;
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+
+input {
+	margin: 0;
+}

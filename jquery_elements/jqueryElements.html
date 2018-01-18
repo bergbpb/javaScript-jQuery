@@ -1,0 +1,290 @@
+<!doctype html>
+
+<head>
+
+	<meta charset = "UTF-8">
+
+	<title>jQuery Elements</title>
+
+	<link rel="stylesheet" href="styles/main.css">
+
+  	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.css">
+
+  	<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+
+  	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+
+	<div class="pgContainer">
+	<!--
+	 .d888              888                    888 d8b                   
+	d88P"               888                    888 Y8P                   
+	888                 888                    888                       
+	888888 8888b.   .d88888  .d88b.        .d88888 888 888  888 .d8888b  
+	888       "88b d88" 888 d8P  Y8b      d88" 888 888 888  888 88K      
+	888   .d888888 888  888 88888888      888  888 888 Y88  88P "Y8888b. 
+	888   888  888 Y88b 888 Y8b.          Y88b 888 888  Y8bd8P       X88 
+	888   "Y888888  "Y88888  "Y8888        "Y88888 888   Y88P    88888P' 
+	-->
+
+		<!-- example one _____________________________________________________________________________________________-->
+
+		<h1>jQuery SWITCH STATEMENT</h1>
+
+		<div class="exampleContainer fadeBlock">
+
+			<!-- text for these div is created in the jQuery in the object dot notation section of this example -->
+			<div class="container"><button href="#"></button><div style="background-color: red;" class="div1 elem"></div></div>
+
+			<div class="container"><button href="#"></button><div style="background-color: blue;" class="div2 elem"></div></div>
+
+			<div class="container"><button href="#"></button><div style="background-color: green;" class="div3 elem"></div></div>
+
+			<div class="container"><button href="#"></button><div style="background-color: black;" class="div4 elem"></div></div>
+
+			<div class="container">
+
+				<a class="subscript" id="pageRefresh1" href="#">Click to refresh the page</a>
+
+			</div>
+
+		<!-- 
+		                                              888 d8b                   
+		                                              888 Y8P                   
+		                                              888                       
+		 8888b.   .d8888b .d8888b .d88b.  888d888 .d88888 888  .d88b.  88888b.  
+		    "88b d88P"   d88P"   d88""88b 888P"  d88" 888 888 d88""88b 888 "88b 
+		.d888888 888     888     888  888 888    888  888 888 888  888 888  888 
+		888  888 Y88b.   Y88b.   Y88..88P 888    Y88b 888 888 Y88..88P 888  888 
+		"Y888888  "Y8888P "Y8888P "Y88P"  888     "Y88888 888  "Y88P"  888  888 	                                                                        
+		-->
+
+		<!-- example two _____________________________________________________-->
+
+			<h1>jQuery&nbsp; ACCORDION</h1>
+
+			<div class="blockContainer accordion">
+
+				<div class="block"><p>click</p></div>
+
+				<div class="block"><p>click</p></div>
+
+				<div class="block"><p>click</p></div>
+
+				<div class="block"><p>click</p></div>
+
+			</div>
+
+		</div>
+
+		<!-- 
+		 .d8888b.  888     888  .d8888b.  
+		d88P  Y88b 888     888 d88P  Y88b 
+		Y88b.      888     888 888    888 
+		 "Y888b.   Y88b   d88P 888        
+		    "Y88b.  Y88b d88P  888  88888 
+		      "888   Y88o88P   888    888 
+		Y88b  d88P    Y888P    Y88b  d88P 
+		 "Y8888P"      Y8P      "Y8888P88
+		-->
+		
+		<!-- example three ______________________________________________________________-->
+
+		<!-- JS is salesGauge.js in the js directory -->
+
+		<h1>jQuery &nbsp;SVG</h1>
+
+		<!-- In a production environment in which this is integrated with back end code,
+		the data-percentage attribute would be what the back end should target 
+		with the value for the percentage variable-->
+		<div class="svgContainer" data-percentage="22">
+					
+				<!-- change the max-width prop in the CSS to change the container size, 
+				otherwise the font wont scale properly -->
+				<svg id="gaugeSVG" height="800" width="800" viewBox="0 0 800 800"></svg>
+
+				<div id="btnContainer">
+
+					<input id="pctInput" type="text"></input>
+
+					<button id="pct">%</button>
+
+				</div>
+
+				<p class="subscript">Enter a value and click the % button to animate the gauge</p>
+
+		</div>
+
+		<div class="container">
+
+			<a class="subscript" id="pageRefresh2" href="#">Click to refresh the page</a>
+
+		</div>
+
+		<!-- 
+		 .d888 888                   888           888               888    888                     
+		d88P"  888                   888           888               888    888                     
+		888    888                   888           888               888    888                     
+		888888 888  8888b.  .d8888b  88888b.       88888b.  888  888 888888 888888 .d88b.  88888b.  
+		888    888     "88b 88K      888 "88b      888 "88b 888  888 888    888   d88""88b 888 "88b 
+		888    888 .d888888 "Y8888b. 888  888      888  888 888  888 888    888   888  888 888  888 
+		888    888 888  888      X88 888  888      888 d88P Y88b 888 Y88b.  Y88b. Y88..88P 888  888 
+		888    888 "Y888888  88888P' 888  888      88888P"   "Y88888  "Y888  "Y888 "Y88P"  888  888 
+	    -->
+
+		<!-- example four _________________________________________________________________________________________-->
+
+		<h1>jQuery&nbsp; SET/CLEAR INTERVAL,&nbsp; ELEMENT/BOX-SHADOW ANIMATION,&nbsp; AND SELF INVOKING FUNCTION</h1>
+
+		<div class="flashButtonContainer">
+			
+			<input type="submit" name="Flash" value="Click" id="flashSubmitButton">
+
+			<p class="subscript flashLabel">Click the button again to reset the flasher</p>
+
+		</div>
+
+		<!-- 
+			                                       888      
+		                                           888      
+		                                           888      
+		.d8888b   .d88b.   8888b.  888d888 .d8888b 88888b.  
+		88K      d8P  Y8b     "88b 888P"  d88P"    888 "88b 
+		"Y8888b. 88888888 .d888888 888    888      888  888 
+		     X88 Y8b.     888  888 888    Y88b.    888  888 
+		 88888P'  "Y8888  "Y888888 888     "Y8888P 888  888                                              
+		-->
+
+		<!-- example five __________________________________________________________________________________-->
+
+		<h1>jQuery &nbsp;SET A &nbsp;javaScript&nbsp; OBJECTS KEY/VALUE PAIRS WITH FORM DATA</h1>
+
+		<div class="searchContainer">
+                 
+            <label for="searchBy" class="searchLabel">Search By</label>
+
+            <select name="searchBy" id="searchBy">
+
+                <option value="lastName" selected="selected">First Name</option>
+
+                <option value="firstName">Last Name</option>
+
+                <option value="location">Location</option>
+
+                <option value="department">Department</option>
+
+                <option value="emailAddress">Email Address</option>
+
+                <option value="userName">User Name</option>
+
+            </select>
+        
+            <input type="text" name="searchQuery" size="20" value="" id="searchQuery">
+
+            <span class="andOr">&nbsp;AND/OR&nbsp;</span>
+
+            <select name="searchBy2" id="searchBy2" class="content-field">
+
+                <option value="lastName" selected="selected">First Name</option>
+
+                <option value="firstName">Last Name</option>
+
+                <option value="location">Location</option>
+
+                <option value="department">Department</option>
+
+                <option value="emailAddress">Email Address</option>
+
+                <option value="userName">User Name</option>
+
+            </select>
+
+            <input type="text" name="searchQuery2" size="20" value="" id="searchQuery2">
+
+            <input type="submit" name="search" value="Search" id="searchSubmitButton">
+
+            <div class="characterCountContainer">
+
+	            <p class="characterCount1">Character Count:&nbsp;<span></span></p>
+
+	            <p class="characterCount2">Character Count:&nbsp;<span></span></p>
+
+	            <p class="maxChar"><span>100</span>&nbsp;character maximum</p>
+
+            </div>
+
+            <hr>
+
+            <h5>search results</h5>
+
+            <div class="searchResultsText"></div>
+
+          	<p class="subscript searchMemo">Inspect the page and open the console to see the object that contains the search parameters.</p>
+
+          	<div class="container">
+
+				<a class="subscript" id="pageRefresh3" href="#">Click to refresh the page</a>
+
+			</div>
+
+        </div> 
+
+        <!--                                                 
+		                                                        
+		 8888b.  888d888 888d888 8888b.  888  888 .d8888b       
+		    "88b 888P"   888P"      "88b 888  888 88K           
+		.d888888 888     888    .d888888 888  888 "Y8888b.      
+		888  888 888     888    888  888 Y88b 888      X88      
+		"Y888888 888     888    "Y888888  "Y88888  88888P'      
+		                                      888               
+		                                 Y8b d88P               
+		                                  "Y88P"                
+		-->
+		<!-- example six __________________________________________________________________________________-->
+
+        <div class="ArraysContainer">
+        	
+			<h1>jQuery &nbsp; ARRAYS AND LOOPS</h1>
+
+			<div class="outputDiv"></div>
+
+			<div class="innerContainer">
+
+				<input class="arrayInput" type="text" placeholder="user input">
+
+				<button type="submit" name="submit" id="arraySubmitButton">Add</button>
+
+				<button type="submit" name="clear" id="arrayClearButton">Clear</button>
+
+				<button type="submit" name="clearItem" id="arrayClearItemButton">Clear Item</button>
+
+				<button type="submit" name="submitUserInput" id="userInputArray">User Input</button>
+
+				<button type="submit" name="submit" id="colorsArray">Generate Colors</button>
+
+				<button type="submit" name="submit" id="numbersArray">Generate Numbers</button>
+
+			</div>
+
+        </div>
+        
+	</div>
+
+	<script src="js/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+
+	<script src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+	<script src="js/jquery-ui-1.12.1.custom/jquery-shadow-animation.js"></script>
+	
+	<script src="js/snap.svg.js"></script>
+		
+	<script src="js/salesGauge.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
